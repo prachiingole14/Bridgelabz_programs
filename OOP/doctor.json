@@ -1,0 +1,37 @@
+[
+    {
+        "id":"1001",
+        "name" :"Dr. Niyati",
+        "Specilization" : "Cardiologist",
+        "Available" : "night"
+    },
+
+    {
+        "id":"1002",
+        "name" :"Dr. Shalmali",
+        "Specilization" : "Dermatologist",
+        "Available" : "afternoon"
+    },
+
+    {
+        "id":"1003",
+        "name" :"Dr. Trusha",
+        "Specilization" : "Ophthalmologist ",
+        "Available" : "Evining"
+    },
+
+    {
+        "id":"1004",
+        "name" :"Dr. Kalpna",
+        "Specilization" : "Nephrologist ",
+        "Available" : "Morning"
+    },
+
+    {
+        "id":"1005",
+        "name" :"Dr. Niyati",
+        "Specilization" : "Nephrologist ",
+        "Available" : "afternoon"
+    }
+    
+]

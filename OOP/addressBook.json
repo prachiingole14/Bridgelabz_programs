@@ -1,0 +1,39 @@
+[
+    {
+        "fname":"Prachi",
+        "lname":"Ingole",
+        "address":"Purv Wardhman nagar darwha",
+        "city":"darwha",
+        "state":"Darwha","zip":445202,
+        "phone":7038510162
+    },
+
+    {
+        "fname":"Yash",
+        "lname":"Ingole",
+        "address":"Purv Wardhman nagar darwha",
+        "city":"darwha",
+        "state":"Darwha","zip":445202,
+        "phone":9766213828
+    },
+
+    {
+        "fname":"Aditi",
+        "lname":"Natkar",
+        "address":"Vijay colony",
+        "city":"yavatmal",
+        "state":"yavatmal","zip":445204,
+        "phone":7038518762
+    },
+
+    {
+        "fname":"Divya",
+        "lname":"lokhande",
+        "address":"Purv Wardhman nagar darwha",
+        "city":"darwha",
+        "state":"Darwha","zip":445202,
+        "phone":7065810162
+    }
+]  
+
+   

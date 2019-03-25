@@ -1,0 +1,36 @@
+[  
+    {
+        "pid" : "2001",
+        "pname" : "Diksha",
+        "age" : "25",
+        "mobile_no" : "9898985642"
+    },
+
+    {
+        "pid" : "2002",
+        "pname" : "Damini",
+        "age" : "65",
+        "mobile_no" : "7858985642"
+    },
+
+    {
+        "pid" : "2003",
+        "pname" : "janvi",
+        "age" : "45",
+        "mobile_no" : "9695949192"
+    },
+
+    {
+        "pid" : "2004",
+        "pname" : "Ram",
+        "age" : "80",
+        "mobile_no" : "8789848685"
+    },
+
+    {
+        "pid" : "2005",
+        "pname" : "Shyam",
+        "age" : "78",
+        "mobile_no" : "9898985643"
+    }
+]
