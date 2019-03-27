@@ -4,6 +4,7 @@
      * Author : Pr@chi
      * Date : 27/03/2019
      * Description  : Implementation of Aspect-Oriented Programming
+     
     **********************************************************************************************************************/
 
     /**
@@ -16,10 +17,10 @@
          * function to log the passed message
          * @param message to be logged
          * @return void
-         */
+        */
         public function log($message)
         {
-            echo ("Logging Message : $message\n");
+            echo "Logging Message : $message\n";
         }
     }
     
@@ -49,7 +50,7 @@
          */
         public function createUser()
         {
-            $this->logger->log("User Created :");
+            $this->logger->log("User Created ");
         }
         
         /**
