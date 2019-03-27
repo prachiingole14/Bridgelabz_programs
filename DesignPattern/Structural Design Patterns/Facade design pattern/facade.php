@@ -101,6 +101,7 @@ class HotelKeeper
         // calling getMenus function of VegRestaurant class on vegRestaurant object
         $vegMenu = $vegRestaurant->getMenus();
         echo "Here Sir, veg menu of paradise Restaurant \n ";
+        echo " * Paneer Tikka\n  * Malai Kofta\n  * Dal-Bati\n";
     }
 
     /**
@@ -114,6 +115,7 @@ class HotelKeeper
         // calling getMenus function of NonVegRestaurant class on NonVegRestaurant object
         $nonvegMenu = $nonVegRestaurant->getMenus();
         echo "Here Sir, Non-veg menu of paradise Restaurant\n ";
+        echo " * Chicken Biryani\n  * Chicken Carry\n  * Fish\n";
     }
 
     /**
@@ -143,7 +145,7 @@ class Client
         //try catch
         try 
         {
-            echo ("\n----------FACADE DESIGN PATTERN------------\n");
+            echo ("\n      ----------FACADE DESIGN PATTERN------------\n");
             echo ("\n");
             //asking the user for input
             echo "\nPress 1 for Veg menu \nPress 2 for Non Veg menu \nPress 3 for Both veg and non veg menu \nPress 4 to exit \n";
@@ -183,7 +185,7 @@ class Client
                         break;
                     
                 default: //if customer chooses to exit
-                        echo "Thank You for visiting Come again ...\n";
+                        echo "Thank You for visiting Come again ......!\n";
                         echo "\n";
                         break;
                     

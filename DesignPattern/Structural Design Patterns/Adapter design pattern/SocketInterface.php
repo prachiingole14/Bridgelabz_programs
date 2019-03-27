@@ -16,7 +16,7 @@
     {
         //function that has to be overriden in the class which implements this interface
         public function get240Volts();
-        public function get3Volts();
+        public function get3Volts(); 
         public function get60Volts();
     }
 

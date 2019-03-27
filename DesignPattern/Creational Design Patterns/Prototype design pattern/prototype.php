@@ -98,7 +98,7 @@
     $bookThree = clone $designProto;         
 
     // passing the book titles for book 3       
-    $bookThree->setTitle('Pr@chi Designpatterns');     
+    $bookThree->setTitle('PHP Master');     
 
     //printing Book 3 topic   
     echo "\nBookThree topic: ".$bookThree->getTopic()."\n"; 

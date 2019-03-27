@@ -14,10 +14,12 @@
     /**
      *testing the singleton implementation
     */
-    echo "\n SINGLETON PATTERN\n\n";
+    echo "       --------- SINGLETON PATTERN ---------\n\n";
     
     /**
      *instatiating MobileBorrower class
+     * @param mobileBorrower1 store object of MobileBorrower class
+     * @param mobileBorrower2 store object of MobileBorrower class
     */
     $mobileBorrower1 = new MobileBorrower();
     $mobileBorrower2 = new MobileBorrower();

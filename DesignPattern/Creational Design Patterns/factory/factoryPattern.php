@@ -37,7 +37,7 @@
                         
                         // case shows the laptop configration
                         case 1: echo "Your Laptop details are:\n";
-                                return new Laptop("Dell","1TB","4GB");
+                                return new Laptop("Dell","1TB","8GB");
                                 break;
 
                         // case shows server details
@@ -51,7 +51,8 @@
                                 break;
 
                         // when entering invalid option it will be executed
-                        default : echo "Invalid Input.......!\n\n";
+                        default : if (i<3)
+                                  echo "Invalid Input.......!\n\n";
                                   //echo "Choose option between 1-3\n"; 
                                   //ComputerFactory::getInfo($n);
                                   break;
@@ -70,13 +71,15 @@
         $f = new ComputerFactory();
 
         //Enter your choice which operation you want to choose
-        echo "\nEnter your choice.....\n1.Laptop\n2.Server\n3.PC \n";
+        echo "\nEnter your choice.......!\n1.Laptop\n2.Server\n3.PC \n";
         echo "Your choice : ";
-        $obj = $f->getInfo(Utility::getInt());
+        $choice=Utility::getInt();
+        echo "\n";
+        $obj = $f->getInfo($choice);
 
         //getProprties is function of Reflection class
         $ref = new ReflectionClass($obj);
-        //$dfdf = $ref->getProperties() ;
+
         foreach($ref->getProperties() as $key)
         {
             echo $key->getName()." -> ".$key->getValue($obj)."\n";
