@@ -27,5 +27,5 @@ set_exception_handler(function ($e)
     
     $patternGossiper->detach($patternGossipFan);
     $patternGossiper->updateFavorites('Sehwag, Kohli, Pathan');
-    echo "END TESTING OBSERVER PATTERN\n";
+
 ?>
